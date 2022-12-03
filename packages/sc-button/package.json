@@ -1,0 +1,23 @@
+{
+  "name": "@sc/button",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "lib"
+  ],
+  "module": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "concurrently \"tsc --outDir dist\" \"npm run copy\"",
+    "copy": "copyfiles -u 1 \"src/**/*.scss\" dist"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "concurrently": "7.6.0",
+    "copyfiles": "2.4.1",
+    "react": "18.2.0",
+    "typescript": "4.9.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
