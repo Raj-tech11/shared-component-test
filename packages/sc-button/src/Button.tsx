@@ -9,7 +9,7 @@ interface ButtonProps {
 const Button = ({ onClick, children, disabled }: ButtonProps) => (
   <>
     <button disabled={disabled} onClick={onClick}>
-      {children || "textabc"}
+      {children || "textab"}
     </button>
   </>
 );
