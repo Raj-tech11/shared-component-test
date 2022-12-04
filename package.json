@@ -28,8 +28,6 @@
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "publish": "lerna publish --no-push",
-    "postversion": "git push --follow-tags --no-verify origin main"
+    "build-storybook": "build-storybook"
   }
 }
