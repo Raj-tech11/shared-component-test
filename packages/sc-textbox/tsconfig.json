@@ -1,0 +1,5 @@
+{
+  "extends": "../tsbase.json",
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

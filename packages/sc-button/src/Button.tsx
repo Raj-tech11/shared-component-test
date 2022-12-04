@@ -1,18 +1,16 @@
-//import { PrimaryButton } from "@fluentui/react";
 import React from "react";
 
 interface ButtonProps {
-  label?: string;
   children?: React.ReactNode;
+  onClick?: () => void;
   disabled?: boolean;
 }
 
-const Button = ({ label, children, disabled }: ButtonProps) => (
+const Button = ({ onClick, children, disabled }: ButtonProps) => (
   <>
-    <button>{children}</button>
-    {/* <PrimaryButton disabled={disabled} text={label}>
+    <button disabled={disabled} onClick={onClick}>
       {children}
-    </PrimaryButton> */}
+    </button>
   </>
 );
 

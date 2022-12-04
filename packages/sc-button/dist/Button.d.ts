@@ -1,8 +1,8 @@
 import React from "react";
 interface ButtonProps {
-    label?: string;
     children?: React.ReactNode;
+    onClick?: () => void;
     disabled?: boolean;
 }
-declare const Button: ({ label, children, disabled }: ButtonProps) => JSX.Element;
+declare const Button: ({ onClick, children, disabled }: ButtonProps) => JSX.Element;
 export default Button;

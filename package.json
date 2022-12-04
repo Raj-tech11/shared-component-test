@@ -1,5 +1,5 @@
 {
-  "name": "build.booster.core.ui",
+  "name": "@raj-tech/monorepo",
   "private": true,
   "workspaces": [
     "packages/*"
