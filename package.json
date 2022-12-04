@@ -27,6 +27,7 @@
     "typescript": "4.9.3"
   },
   "scripts": {
+    "publish": "lerna publish --no-push",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   }
